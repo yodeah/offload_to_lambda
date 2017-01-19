@@ -11,7 +11,7 @@ function init(){
     });
     lambda = new AWS.Lambda();
     runAFunctionOnLambda(CONF.LAMBDA_FUNCTION, {
-        echo:"data to send to amazon in request body"
+        data_to_transform:500
     });
 }
 
