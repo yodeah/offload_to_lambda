@@ -5,13 +5,13 @@ var lambda = {};
 
 function init(){
     AWS.config = new AWS.Config({
-        accessKeyId:CONF.ID,
-        secretAccessKey:CONF.SECRET,
-        region:"eu-central-1",
+        accessKeyId:CONF.ACCESS_KEY,
+        secretAccessKey:CONF.SECRET_KEY,
+        region:CONF.REGION,
     });
     lambda = new AWS.Lambda();
-    runAFunctionOnLambda("hello_world", {
-        echo:"stuff_2_echo"
+    runAFunctionOnLambda(CONF.LAMBDA_FUNCTION, {
+        echo:"data to send to amazon in request body"
     });
 }
 
