@@ -1,0 +1,22 @@
+{
+  "name": "offload_to_lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yodeah/offload_to_lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yodeah/offload_to_lambda/issues"
+  },
+  "homepage": "https://github.com/yodeah/offload_to_lambda#readme",
+  "dependencies": {
+    "aws-sdk": "^2.7.25"
+  }
+}
