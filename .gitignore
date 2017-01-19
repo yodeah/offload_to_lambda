@@ -2,3 +2,4 @@
 node_modules/
 offload_to_lambda.iml
 conf.js
+conf.json
