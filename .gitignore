@@ -1,4 +1,4 @@
 .idea/
 node_modules/
 offload_to_lambda.iml
-conf.json
+

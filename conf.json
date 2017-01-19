@@ -1,0 +1,6 @@
+{
+  "ACCESS_KEY":"PLACEHOLDER",
+  "SECRET_KEY":"PLACEHOLDER",
+  "LAMBDA_FUNCTION":"convert_stuff",
+  "REGION":"eu-central-1"
+}
