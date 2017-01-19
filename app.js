@@ -11,7 +11,7 @@ function init(){
     });
     lambda = new AWS.Lambda();
     runAFunctionOnLambda(CONF.LAMBDA_FUNCTION, {
-        data_to_transform:500
+        "data_to_transform":500
     });
 }
 
